@@ -1,0 +1,67 @@
+:root{--yellow:#ffda3d}
+::selection{background:var(--yellow);color:#00001c}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline-color:var(--yellow)}
+.hero-meta i{background:var(--yellow);box-shadow:0 0 16px #ffda3d80}
+.hero h1 em{background-image:linear-gradient(105deg,#ffffff 5%,#ffda3d 95%)}
+.glass-button span{background:var(--yellow);color:#00001c}
+.nav-cta{border-color:#ffda3d80}.nav-cta:hover{background:var(--yellow);color:#00001c}
+.eyebrow,.ticker span,.project-arrow,.floating-card b{color:var(--yellow)}
+.filters button.active{background:var(--yellow);border-color:var(--yellow);color:#00001c}
+.header nav>a:not(.nav-cta):after{background:var(--yellow)}
+.logo-disc{box-shadow:0 0 55px #185de8,0 0 0 1px #ffda3d80}
+.orbital-ring{border-color:#ffda3d80}
+.instagram-inline,.project-art,.floating-card{transition:transform .45s cubic-bezier(.2,.7,.2,1),border-color .35s,box-shadow .35s}
+.instagram-inline:hover,.instagram-inline:focus-within{border-color:var(--yellow);box-shadow:0 18px 55px #185de845,0 0 0 1px #ffda3d40}
+.project-card:hover .project-art,.project-card:focus-visible .project-art{border-color:var(--yellow);box-shadow:0 18px 55px #185de840}
+.reel-direct{transition:color .25s}.reel-direct:hover{color:var(--yellow)}
+.project-art{isolation:isolate}.project-art:after{content:'';position:absolute;inset:-60%;background:linear-gradient(110deg,transparent 43%,#ffffff26 50%,transparent 57%);transform:translateX(-75%);pointer-events:none;z-index:2}
+.contact .pill:hover{background:var(--yellow);border-color:var(--yellow);color:#00001c}
+.brand-intro{position:fixed;inset:0;z-index:100;background:radial-gradient(ellipse at center,#185de860,#00001c 65%);display:grid;place-items:center;pointer-events:none}
+.brand-intro[hidden]{display:none}
+.intro-lockup{position:relative;display:flex;align-items:center;flex-direction:column;gap:25px}
+.intro-logo{width:150px;height:150px;background:white;border-radius:50%;padding:24px;box-shadow:0 0 80px #185de880}
+.intro-logo img{display:block;width:100%;height:100%;object-fit:contain}
+.intro-orbit{position:absolute;width:220px;height:220px;top:-35px;border:1px solid #185de880;border-top-color:var(--yellow);border-radius:50%}
+.intro-name{font-family:'Space Grotesk',sans-serif;letter-spacing:6px;font-size:19px;margin-top:22px}
+.intro-line{width:105px;height:2px;background:var(--yellow);transform-origin:left}
+.intro-tag{font-size:8px;letter-spacing:3px;color:#ffffffb3}
+@keyframes intro-exit{0%,70%{opacity:1}100%{opacity:0;visibility:hidden}}
+@keyframes intro-logo-in{from{opacity:0;transform:scale(.8) translateY(12px)}to{opacity:1;transform:scale(1) translateY(0)}}
+@keyframes intro-orbit-turn{from{transform:rotate(-60deg) scale(.9);opacity:0}to{transform:rotate(180deg) scale(1);opacity:1}}
+@keyframes line-draw{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes card-reveal{from{opacity:0;translate:0 28px}to{opacity:1;translate:0 0}}
+@keyframes card-shine{from{transform:translateX(-75%)}to{transform:translateX(75%)}}
+@keyframes ambient-arrival{from{opacity:.3;scale:.93}to{opacity:1;scale:1}}
+@media(prefers-reduced-motion:no-preference){
+ .brand-intro{animation:intro-exit 1.75s ease forwards}
+ .intro-logo{animation:intro-logo-in .7s cubic-bezier(.2,.7,.2,1) both}
+ .intro-orbit{animation:intro-orbit-turn 1.5s ease both}
+ .intro-name,.intro-tag{animation:rise-in .6s .2s ease both}
+ .intro-line{animation:line-draw .9s .2s ease both}
+ .intro-playing .hero-meta,.intro-playing .hero h1,.intro-playing .glass-monolith,.intro-playing .card-center{animation-delay:1.3s}
+ .intro-playing .hero .glass-button{animation:rise-in .7s 1.45s both}
+ .motion-wait{opacity:0;translate:0 28px}
+ .motion-enter{animation:card-reveal .75s var(--reveal-delay,0ms) cubic-bezier(.2,.7,.2,1) both}
+ .showcase-glow{animation:ambient-arrival 2.5s ease both}
+ .project-card:hover .project-art:after{animation:card-shine .85s ease both}
+ .instagram-inline:hover{transform:translateY(-5px)}
+}
+@media(prefers-reduced-motion:reduce){.brand-intro{display:none}.motion-wait{opacity:1;translate:none}.instagram-inline:hover{transform:none}}
+
+/* Studio map: native map gestures remain available. */
+.location-section{position:relative}
+.location-panel{border:1px solid #ffffff40;border-radius:32px;overflow:hidden;background:linear-gradient(140deg,#185de830,#00001c);box-shadow:0 20px 70px #185de815;transition:border-color .4s ease,box-shadow .4s ease}
+.location-panel:hover,.location-panel:focus-within{border-color:#ffda3d80;box-shadow:0 24px 75px #185de840}
+.location-map{background:#00001c;position:relative}
+.location-map iframe{display:block;width:100%;height:440px;border:0}
+.location-bar{padding:24px 28px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.location-bar>div{display:flex;align-items:center;gap:13px;flex-wrap:wrap}
+.location-bar strong{font-family:'Space Grotesk',sans-serif;letter-spacing:1px;font-size:15px}
+.location-city{color:#ffffffb3;font-size:12px}
+.location-dot{display:inline-block;width:9px;height:9px;border-radius:50%;background:var(--yellow);box-shadow:0 0 16px #ffda3d60}
+.location-help{font-size:12px;line-height:1.8;color:#ffffffb3;margin-top:20px}
+.location-help a{color:white;text-decoration:underline;text-underline-offset:4px;transition:color .25s}
+.location-help a:hover{color:var(--yellow)}
+@media(prefers-reduced-motion:no-preference){.location-panel.motion-enter .location-dot{animation:location-signal 1.2s ease 2}@keyframes location-signal{0%,100%{box-shadow:0 0 0 0 #ffda3d40}60%{box-shadow:0 0 0 12px #ffda3d00}}}
+@media(max-width:900px){.header nav{gap:16px;font-size:12px}}
+@media(max-width:600px){.location-map iframe{height:340px}.location-panel{border-radius:24px}.location-bar{padding:20px;align-items:flex-start;flex-direction:column}.location-city{flex-basis:100%;margin-left:22px}.location-help{font-size:11px}}
