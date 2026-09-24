@@ -21,7 +21,7 @@
     window.addEventListener(type, dismissIntro, { once: true, passive: true });
   });
 
-  const targets = '.section-head, .project-card, .instagram-inline, .studio > div, .contact .wrap, .reels-foot, footer, .showcase-heading, .showcase-more, .location-panel, .location-help';
+  const targets = '.section-head, .instagram-inline, .studio > div, .contact .wrap, .reels-foot, footer, .showcase-heading, .showcase-more, .location-panel, .location-help, .space-view, .tour-stage';
   const observer = 'IntersectionObserver' in window ? new IntersectionObserver(entries => {
     entries.forEach(entry => {
       if (!entry.isIntersecting) return;
@@ -43,7 +43,7 @@
   prepare();
   const projects = document.querySelector('#projects');
   const mutation = new MutationObserver(() => prepare(projects));
-  mutation.observe(projects, { childList: true });
+  if (projects) mutation.observe(projects, { childList: true });
   document.addEventListener('focusin', event => {
     dismissIntro();
     const node = event.target.closest('.motion-wait');

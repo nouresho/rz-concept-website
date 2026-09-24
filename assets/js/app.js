@@ -8,26 +8,6 @@ dialog.addEventListener('close', () => { $('#viewer-content').replaceChildren();
 $('.close').addEventListener('click', closeModal);
 dialog.addEventListener('click', e => { if (e.target === dialog) { const r = dialog.getBoundingClientRect(); if (e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom) closeModal(); } });
 function el(tag, cls, text) { const n = document.createElement(tag); if (cls) n.className = cls; if (text) n.textContent = text; return n; }
-function art(p) { const a = el('div', `project-art ${p.theme}`); a.append(el('span', 'art-label', 'RZ STUDIO / CONCEPT'), el('strong', 'project-word', p.word), el('span', 'project-sub', p.sub)); return a; }
-function renderProjects(filter = 'all') {
-  const projects = content.projects.filter(p => filter === 'all' || p.category === filter);
-  $('#projects').replaceChildren(...projects.map(p => {
-    if (p.instagram && /^https:\/\/www\.instagram\.com\/p\/[A-Za-z0-9_-]+\/$/.test(p.instagram)) {
-      const card = el('article', 'instagram-inline portfolio-instagram');
-      const title = el('h3', 'instagram-inline-title', p.title);
-      const frame = el('iframe', 'instagram-inline-frame');
-      frame.title = p.title + ' — publication Instagram';
-      frame.src = p.instagram + 'embed/'; frame.loading = 'eager';
-      frame.referrerPolicy = 'strict-origin-when-cross-origin';
-      frame.allow = 'encrypted-media; picture-in-picture; fullscreen';
-      const link = el('a', 'reel-direct', 'Ouvrir la publication sur Instagram ↗');
-      link.href = p.instagram; link.target = '_blank'; link.rel = 'noopener noreferrer';
-      card.append(title, frame, link); return card;
-    }
-    const b = el('button', 'project-card'); b.setAttribute('aria-label', `Découvrir ${p.title}`); const meta = el('div', 'project-meta'); const title = el('div'); title.append(el('h3', '', p.title), el('p', '', p.label)); meta.append(title, el('span', 'project-arrow', '↗')); b.append(art(p), meta); b.addEventListener('click', () => { const node = el('article', 'project-detail'); const heading = el('h2', '', p.title); heading.id = 'viewer-title'; node.append(art(p), heading, el('p', '', p.description), el('p', 'demo-note', 'Concept visuel de démonstration · RZCONCEPT')); showModal(node, b); }); return b; }));
-  $('#filter-status').textContent = `${projects.length} projets affichés`;
-}
-document.querySelectorAll('[data-filter]').forEach(b => b.addEventListener('click', () => { document.querySelectorAll('[data-filter]').forEach(x => { x.classList.toggle('active', x === b); x.setAttribute('aria-pressed', String(x === b)); }); renderProjects(b.dataset.filter); }));
 function instagramURL(value) {
   try {
     const url = new URL(value);
@@ -95,4 +75,3 @@ menu.addEventListener('click', () => setMenu(menu.getAttribute('aria-expanded') 
 document.querySelectorAll('#navigation a').forEach(a => a.addEventListener('click', () => setMenu(false)));
 document.addEventListener('keydown', e => { if (e.key === 'Escape') setMenu(false); });
 $('#year').textContent = new Date().getFullYear();
-renderProjects();

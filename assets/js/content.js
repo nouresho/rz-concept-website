@@ -1,12 +1,12 @@
 // Remplacez ces concepts par vos projets réels. Aucun client fictif n'est présenté comme réel.
 window.RZ_CONTENT = {
-  projects: [
-    { id: 'instagram-c8nibzjodxw', title: 'Réalisation RZCONCEPT', category: 'instagram', label: 'Publication Instagram', instagram: 'https://www.instagram.com/p/C8nIBzjOdXw/' },
-    { id: 'atlas', title: 'ATLAS / Pure origin', category: 'branding', label: 'Identité & packaging', theme: 'atlas', word: 'ATLAS', sub: 'PURE ORIGIN. BOLD NATURE.', description: 'Concept de démonstration : une identité inspirée des matières naturelles et des paysages marocains.' },
-    { id: 'object', title: 'OBJECT / Étude de lumière', category: 'photo', label: 'Photographie & direction artistique', theme: 'object', word: 'objет.', sub: 'THE BEAUTY IN THE ORDINARY', description: 'Concept de démonstration : composition graphique autour de la lumière, des volumes et de la photographie produit.' },
-    { id: 'forma', title: 'FORMA / Move differently', category: 'digital', label: 'Campagne digitale', theme: 'forma', word: 'FØRMA', sub: 'MOVE DIFFERENTLY.', description: 'Concept de démonstration : un langage visuel énergique pour une campagne digitale.' },
-    { id: 'soleil', title: 'SOLEIL / A slower state', category: 'branding', label: 'Branding & univers visuel', theme: 'soleil', word: 'soleil', sub: 'A SLOWER STATE OF MIND', description: 'Concept de démonstration : une direction de marque chaleureuse, entre art de vivre et simplicité.' }
+  spaces: [
+    { name: 'Blue Room', label: 'Ambiance 01', description: 'Une direction visuelle autour du bleu signature RZCONCEPT.', image: '', theme: 'blue-room' },
+    { name: 'Le Salon', label: 'Ambiance 02', description: 'Une proposition d’ambiance pour les conversations et les rencontres.', image: '', theme: 'le-salon' },
+    { name: 'Creative Corner', label: 'Ambiance 03', description: 'Une proposition d’univers pour imaginer vos prochains contenus.', image: '', theme: 'creative-corner' }
   ],
+  // URL HTTPS d’intégration du prestataire de visite 360 ; vide = état prochainement.
+  tour: { embedUrl: '' },
   // Instagram se charge uniquement après un clic. src reste disponible pour les MP4.
   reels: [
     { title: 'Réalisation 01', category: 'INSTAGRAM REEL', theme: 'motion', word: 'REEL\n01.', instagram: 'https://www.instagram.com/reel/DdUPMp3Elf-/', src: '', poster: '' },
