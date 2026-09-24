@@ -1,9 +1,10 @@
 // Remplacez ces concepts par vos projets réels. Aucun client fictif n'est présenté comme réel.
 window.RZ_CONTENT = {
+  hero: { video: '', poster: '' },
   spaces: [
-    { name: 'Blue Room', label: 'Ambiance 01', description: 'Une direction visuelle autour du bleu signature RZCONCEPT.', image: '', theme: 'blue-room' },
-    { name: 'Le Salon', label: 'Ambiance 02', description: 'Une proposition d’ambiance pour les conversations et les rencontres.', image: '', theme: 'le-salon' },
-    { name: 'Creative Corner', label: 'Ambiance 03', description: 'Une proposition d’univers pour imaginer vos prochains contenus.', image: '', theme: 'creative-corner' }
+    { slug: 'blue-room', gallery: [], name: 'Blue Room', label: 'Ambiance 01', description: 'Une direction visuelle autour du bleu signature RZCONCEPT.', image: '', theme: 'blue-room' },
+    { slug: 'le-salon', gallery: [], name: 'Le Salon', label: 'Ambiance 02', description: 'Une proposition d’ambiance pour les conversations et les rencontres.', image: '', theme: 'le-salon' },
+    { slug: 'creative-corner', gallery: [], name: 'Creative Corner', label: 'Ambiance 03', description: 'Une proposition d’univers pour imaginer vos prochains contenus.', image: '', theme: 'creative-corner' }
   ],
   // URL HTTPS d’intégration du prestataire de visite 360 ; vide = état prochainement.
   tour: { embedUrl: '' },

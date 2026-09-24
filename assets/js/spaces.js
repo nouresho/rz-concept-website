@@ -17,7 +17,7 @@
       art.append(element('span', 'space-placeholder', 'VISUEL D’AMBIANCE · PHOTO À VENIR'), element('strong', 'space-art-name', space.name));
     }
     const info = element('div', 'space-info');
-    const link = element('a', 'glass-button', 'Parlons de votre projet ↗'); link.href = '#contact';
+    const link = element('a', 'glass-button', 'Voir plus ↗'); link.href = 'espace-' + space.slug + '.html';
     info.append(element('p', 'eyebrow', space.label), element('h3', '', space.name), element('p', 'space-description', space.description), link);
     view.replaceChildren(art, info);
     tabs.querySelectorAll('button').forEach((button, i) => button.setAttribute('aria-pressed', String(i === current)));

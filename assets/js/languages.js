@@ -1,6 +1,8 @@
 (() => {
   // Translate text nodes without replacing controls, media, event listeners or brand names.
   const phrases = [
+ ['Voir plus ↗','See more ↗','اكتشف المزيد ↗'],['Lire la vidéo','Play video','تشغيل الفيديو'],['Mettre en pause','Pause video','إيقاف الفيديو مؤقتاً'],['Retour aux espaces','Back to spaces','العودة إلى الفضاءات'],['Galerie du studio','Studio gallery','صور الاستوديو'],['Photos de cet espace bientôt disponibles.','Photos of this space are coming soon.','صور هذا الفضاء متاحة قريباً.'],['Discuter de cet espace ↗','Ask about this space ↗','استفسر عن هذا الفضاء ↗'],['Photo indisponible','Photo unavailable','الصورة غير متاحة'],['Photo précédente','Previous photo','الصورة السابقة'],['Photo suivante','Next photo','الصورة التالية'],
+
     ['Nos espaces','Our spaces','فضاءاتنا'],['Reels','Reels','ريلز'],['Tour 360°','360° tour','جولة 360°'],['Nous trouver','Find us','موقعنا'],['Parlons projet','Let’s talk','لنتحدث عن مشروعك'],
     ['STUDIO CRÉATIF · AGADIR','CREATIVE STUDIO · AGADIR','استوديو إبداعي · أكادير'],['Votre vision.','Your vision.','رؤيتكم.'],['Une autre','Another','بُعد'],['dimension.','dimension.','جديد.'],
     ['Des identités qui marquent. Des images qui captivent.','Distinctive identities. Captivating images.','هويات تترك أثراً. وصور تجذب الأنظار.'],['Nous transformons vos idées en expériences visuelles.','We turn your ideas into visual experiences.','نحوّل أفكاركم إلى تجارب بصرية.'],['Explorer nos créations','Explore our work','اكتشف أعمالنا'],
@@ -42,7 +44,7 @@
     });
     document.documentElement.lang = language;
     document.documentElement.dir = language === 'ar' ? 'rtl' : 'ltr';
-    document.title = {fr:'RZCONCEPT — Studio créatif à Agadir',en:'RZCONCEPT — Creative studio in Agadir',ar:'RZCONCEPT — استوديو إبداعي بأكادير'}[language];
+    if (!document.body.dataset.space) document.title = {fr:'RZCONCEPT — Studio créatif à Agadir',en:'RZCONCEPT — Creative studio in Agadir',ar:'RZCONCEPT — استوديو إبداعي بأكادير'}[language];
     select.value = language;
     observer.observe(document.body, {childList:true,subtree:true,characterData:true,attributes:true,attributeFilter:['aria-label']});
   }

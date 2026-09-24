@@ -25,3 +25,7 @@ Syntaxe JavaScript, liens internes, fichiers, navigation des espaces et gestion 
 ## Langues et contact
 
 Sélecteur FR / EN / العربية, mémorisation locale et direction RTL pour l’arabe. languages.js traduit le contenu du site, y compris les espaces rendus dynamiquement ; les lecteurs tiers Instagram/Maps gardent leur interface propre. light.css alterne sections claires, reels bleus et contact jaune. Contact par Instagram existant, sans email ni téléphone inventé.
+
+## Hero vidéo et galeries
+
+Dans assets/js/content.js, renseigner hero.video avec le chemin MP4 et hero.poster avec une image. Fond dégradé affiché tant que la vidéo manque. Lecture muette, bouton pause et respect des mouvements réduits. Chaque espace possède une page espace-SLUG.html. Ajouter ses photos à gallery : [{ src: "assets/media/blue-room-01.jpg", alt: "Vue générale de Blue Room" }]. Sans photos : six emplacements explicitement marqués Photo à venir. Une galerie fournie ouvre les images en grand avec précédent/suivant, clavier et fermeture Échap.
