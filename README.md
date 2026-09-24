@@ -21,3 +21,7 @@ Les trois lecteurs Instagram apparaissent directement. Leur lecture dépend des 
 ## Vérification
 
 Syntaxe JavaScript, liens internes, fichiers, navigation des espaces et gestion des URL 360 vérifiés. La vérification visuelle en navigateur reste à faire. Adresse Maps reprise du site original.
+
+## Langues et contact
+
+Sélecteur FR / EN / العربية, mémorisation locale et direction RTL pour l’arabe. languages.js traduit le contenu du site, y compris les espaces rendus dynamiquement ; les lecteurs tiers Instagram/Maps gardent leur interface propre. light.css alterne sections claires, reels bleus et contact jaune. Contact par Instagram existant, sans email ni téléphone inventé.
