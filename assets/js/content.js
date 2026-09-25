@@ -6,6 +6,28 @@ window.RZ_CONTENT = {
   },
   "spaces": [
     {
+      "slug": "blue-room",
+      "name": "Blue Room",
+      "description": "Écran, bibliothèque et assise claire dans une ambiance lumineuse bleue.",
+      "label": "Décor 01",
+      "theme": "blue-room",
+      "image": "assets/media/studio/pic-13.jpg",
+      "gallery": [
+        {
+          "src": "assets/media/studio/pic-13.jpg",
+          "alt": "Blue Room — vue d’ensemble"
+        },
+        {
+          "src": "assets/media/studio/pic-11.jpg",
+          "alt": "Blue Room — vue 2"
+        },
+        {
+          "src": "assets/media/studio/pic-12.jpg",
+          "alt": "Blue Room — vue 3"
+        }
+      ]
+    },
+    {
       "slug": "le-salon",
       "name": "Le Salon",
       "description": "Canapé terracotta, cadres noir et blanc et rideaux gris pour une ambiance chaleureuse.",
@@ -104,26 +126,4 @@ window.RZ_CONTENT = {
       "poster": ""
     }
   ]
-} ,
-    {
-      "slug": "blue-room",
-      "name": "Blue Room",
-      "description": "Écran, bibliothèque et assise claire dans une ambiance lumineuse bleue.",
-      "label": "Décor 01",
-      "theme": "blue-room",
-      "image": "assets/media/studio/pic-13.jpg",
-      "gallery": [
-        {
-          "src": "assets/media/studio/pic-13.jpg",
-          "alt": "Blue Room — vue d’ensemble"
-        },
-        {
-          "src": "assets/media/studio/pic-11.jpg",
-          "alt": "Blue Room — vue 2"
-        },
-        {
-          "src": "assets/media/studio/pic-12.jpg",
-          "alt": "Blue Room — vue 3"
-        }
-      ]
-    };
+};
