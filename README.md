@@ -29,3 +29,7 @@ Sélecteur FR / EN / العربية, mémorisation locale et direction RTL pour 
 ## Hero vidéo et galeries
 
 Dans assets/js/content.js, renseigner hero.video avec le chemin MP4 et hero.poster avec une image. Fond dégradé affiché tant que la vidéo manque. Lecture muette, bouton pause et respect des mouvements réduits. Chaque espace possède une page espace-SLUG.html. Ajouter ses photos à gallery : [{ src: "assets/media/blue-room-01.jpg", alt: "Vue générale de Blue Room" }]. Sans photos : six emplacements explicitement marqués Photo à venir. Une galerie fournie ouvre les images en grand avec précédent/suivant, clavier et fermeture Échap.
+
+## Photos du studio
+
+Répartition visuelle : Blue Room 13/11/12 ; Le Salon 8/9/10/2 ; Creative Corner 6/5/7 ; Yellow Lounge 1/4. Ces groupes représentent des configurations, sans affirmer qu’il s’agit de pièces séparées. Photo 3 exclue du rendu pour artefacts visibles. Les originaux sont conservés ; les 12 versions JPEG de 1800 px sont utilisées par le site. Yellow Lounge est un nom descriptif proposé.

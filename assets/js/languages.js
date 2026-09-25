@@ -1,6 +1,13 @@
 (() => {
   // Translate text nodes without replacing controls, media, event listeners or brand names.
   const phrases = [
+ ['Quatre configurations du studio, photographiées sous plusieurs angles.','Four studio setups, photographed from multiple angles.','أربعة ديكورات للاستوديو مصوّرة من زوايا مختلفة.'],
+ ['Écran, bibliothèque et assise claire dans une ambiance lumineuse bleue.','A screen, shelving and light seating with blue ambient lighting.','شاشة ورفوف ومقعد فاتح مع إضاءة زرقاء.'],
+ ['Canapé terracotta, cadres noir et blanc et rideaux gris pour une ambiance chaleureuse.','A terracotta sofa, monochrome framed photographs and grey curtains create a warm setting.','أريكة بلون الطين وصور بالأبيض والأسود وستائر رمادية لأجواء دافئة.'],
+ ['Deux fauteuils clairs, panneaux beiges et touches végétales dans un décor épuré.','Two light armchairs, beige panels and greenery in a simple setting.','كرسيان فاتحان وألواح بيج ولمسات نباتية في ديكور بسيط.'],
+ ['Deux fauteuils jaunes, une table basse et un mur de cadres souligné par une lumière rouge.','Two yellow armchairs, a coffee table and framed photographs accented by red lighting.','كرسيان أصفران وطاولة وصور مؤطرة تبرزها إضاءة حمراء.'],
+ ['Décor 01','Set 01','ديكور 01'],['Décor 02','Set 02','ديكور 02'],['Décor 03','Set 03','ديكور 03'],['Décor 04','Set 04','ديكور 04'],
+
  ['Voir plus ↗','See more ↗','اكتشف المزيد ↗'],['Lire la vidéo','Play video','تشغيل الفيديو'],['Mettre en pause','Pause video','إيقاف الفيديو مؤقتاً'],['Retour aux espaces','Back to spaces','العودة إلى الفضاءات'],['Galerie du studio','Studio gallery','صور الاستوديو'],['Photos de cet espace bientôt disponibles.','Photos of this space are coming soon.','صور هذا الفضاء متاحة قريباً.'],['Discuter de cet espace ↗','Ask about this space ↗','استفسر عن هذا الفضاء ↗'],['Photo indisponible','Photo unavailable','الصورة غير متاحة'],['Photo précédente','Previous photo','الصورة السابقة'],['Photo suivante','Next photo','الصورة التالية'],
 
     ['Nos espaces','Our spaces','فضاءاتنا'],['Reels','Reels','ريلز'],['Tour 360°','360° tour','جولة 360°'],['Nous trouver','Find us','موقعنا'],['Parlons projet','Let’s talk','لنتحدث عن مشروعك'],

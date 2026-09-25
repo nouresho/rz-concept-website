@@ -1,17 +1,129 @@
-// Remplacez ces concepts par vos projets réels. Aucun client fictif n'est présenté comme réel.
+// Photos originales conservées dans assets/media/edited ; versions web dans assets/media/studio.
 window.RZ_CONTENT = {
-  hero: { video: '', poster: '' },
-  spaces: [
-    { slug: 'blue-room', gallery: [], name: 'Blue Room', label: 'Ambiance 01', description: 'Une direction visuelle autour du bleu signature RZCONCEPT.', image: '', theme: 'blue-room' },
-    { slug: 'le-salon', gallery: [], name: 'Le Salon', label: 'Ambiance 02', description: 'Une proposition d’ambiance pour les conversations et les rencontres.', image: '', theme: 'le-salon' },
-    { slug: 'creative-corner', gallery: [], name: 'Creative Corner', label: 'Ambiance 03', description: 'Une proposition d’univers pour imaginer vos prochains contenus.', image: '', theme: 'creative-corner' }
+  "hero": {
+    "video": "",
+    "poster": ""
+  },
+  "spaces": [
+    {
+      "slug": "blue-room",
+      "name": "Blue Room",
+      "description": "Écran, bibliothèque et assise claire dans une ambiance lumineuse bleue.",
+      "label": "Décor 01",
+      "theme": "blue-room",
+      "image": "assets/media/studio/pic-13.jpg",
+      "gallery": [
+        {
+          "src": "assets/media/studio/pic-13.jpg",
+          "alt": "Blue Room — vue d’ensemble"
+        },
+        {
+          "src": "assets/media/studio/pic-11.jpg",
+          "alt": "Blue Room — vue 2"
+        },
+        {
+          "src": "assets/media/studio/pic-12.jpg",
+          "alt": "Blue Room — vue 3"
+        }
+      ]
+    },
+    {
+      "slug": "le-salon",
+      "name": "Le Salon",
+      "description": "Canapé terracotta, cadres noir et blanc et rideaux gris pour une ambiance chaleureuse.",
+      "label": "Décor 02",
+      "theme": "le-salon",
+      "image": "assets/media/studio/pic-8.jpg",
+      "gallery": [
+        {
+          "src": "assets/media/studio/pic-8.jpg",
+          "alt": "Le Salon — vue d’ensemble"
+        },
+        {
+          "src": "assets/media/studio/pic-9.jpg",
+          "alt": "Le Salon — vue 2"
+        },
+        {
+          "src": "assets/media/studio/pic-10.jpg",
+          "alt": "Le Salon — vue 3"
+        },
+        {
+          "src": "assets/media/studio/pic-2.jpg",
+          "alt": "Le Salon — vue 4"
+        }
+      ]
+    },
+    {
+      "slug": "creative-corner",
+      "name": "Creative Corner",
+      "description": "Deux fauteuils clairs, panneaux beiges et touches végétales dans un décor épuré.",
+      "label": "Décor 03",
+      "theme": "creative-corner",
+      "image": "assets/media/studio/pic-6.jpg",
+      "gallery": [
+        {
+          "src": "assets/media/studio/pic-6.jpg",
+          "alt": "Creative Corner — vue d’ensemble"
+        },
+        {
+          "src": "assets/media/studio/pic-5.jpg",
+          "alt": "Creative Corner — vue 2"
+        },
+        {
+          "src": "assets/media/studio/pic-7.jpg",
+          "alt": "Creative Corner — vue 3"
+        }
+      ]
+    },
+    {
+      "slug": "yellow-lounge",
+      "name": "Yellow Lounge",
+      "description": "Deux fauteuils jaunes, une table basse et un mur de cadres souligné par une lumière rouge.",
+      "label": "Décor 04",
+      "theme": "yellow-lounge",
+      "image": "assets/media/studio/pic-1.jpg",
+      "gallery": [
+        {
+          "src": "assets/media/studio/pic-1.jpg",
+          "alt": "Yellow Lounge — vue d’ensemble"
+        },
+        {
+          "src": "assets/media/studio/pic-4.jpg",
+          "alt": "Yellow Lounge — vue 2"
+        }
+      ]
+    }
   ],
-  // URL HTTPS d’intégration du prestataire de visite 360 ; vide = état prochainement.
-  tour: { embedUrl: '' },
-  // Instagram se charge uniquement après un clic. src reste disponible pour les MP4.
-  reels: [
-    { title: 'Réalisation 01', category: 'INSTAGRAM REEL', theme: 'motion', word: 'REEL\n01.', instagram: 'https://www.instagram.com/reel/DdUPMp3Elf-/', src: '', poster: '' },
-    { title: 'Réalisation 02', category: 'INSTAGRAM REEL', theme: 'behind', word: 'REEL\n02.', instagram: 'https://www.instagram.com/reel/DcUd-CxoDz0/', src: '', poster: '' },
-    { title: 'Réalisation 03', category: 'INSTAGRAM REEL', theme: 'product', word: 'REEL\n03.', instagram: 'https://www.instagram.com/reel/DaydieKiasr/', src: '', poster: '' }
+  "tour": {
+    "embedUrl": ""
+  },
+  "reels": [
+    {
+      "title": "Réalisation 01",
+      "category": "INSTAGRAM REEL",
+      "theme": "motion",
+      "word": "REEL\n01.",
+      "instagram": "https://www.instagram.com/reel/DdUPMp3Elf-/",
+      "src": "",
+      "poster": ""
+    },
+    {
+      "title": "Réalisation 02",
+      "category": "INSTAGRAM REEL",
+      "theme": "behind",
+      "word": "REEL\n02.",
+      "instagram": "https://www.instagram.com/reel/DcUd-CxoDz0/",
+      "src": "",
+      "poster": ""
+    },
+    {
+      "title": "Réalisation 03",
+      "category": "INSTAGRAM REEL",
+      "theme": "product",
+      "word": "REEL\n03.",
+      "instagram": "https://www.instagram.com/reel/DaydieKiasr/",
+      "src": "",
+      "poster": ""
+    }
   ]
 };
