@@ -9,7 +9,7 @@ window.RZ_CONTENT = {
       "slug": "le-salon",
       "name": "Le Salon",
       "description": "Canapé terracotta, cadres noir et blanc et rideaux gris pour une ambiance chaleureuse.",
-      "label": "Décor 02",
+      "label": "Décor 01",
       "theme": "le-salon",
       "image": "assets/media/studio/pic-8.jpg",
       "gallery": [
@@ -35,7 +35,7 @@ window.RZ_CONTENT = {
       "slug": "creative-corner",
       "name": "Creative Corner",
       "description": "Deux fauteuils clairs, panneaux beiges et touches végétales dans un décor épuré.",
-      "label": "Décor 03",
+      "label": "Décor 02",
       "theme": "creative-corner",
       "image": "assets/media/studio/pic-6.jpg",
       "gallery": [
@@ -57,7 +57,7 @@ window.RZ_CONTENT = {
       "slug": "yellow-lounge",
       "name": "Yellow Lounge",
       "description": "Deux fauteuils jaunes, une table basse et un mur de cadres souligné par une lumière rouge.",
-      "label": "Décor 04",
+      "label": "Décor 03",
       "theme": "yellow-lounge",
       "image": "assets/media/studio/pic-1.jpg",
       "gallery": [
@@ -74,7 +74,7 @@ window.RZ_CONTENT = {
       "slug": "blue-room",
       "name": "Blue Room",
       "description": "Écran, bibliothèque et assise claire dans une ambiance lumineuse bleue.",
-      "label": "Décor 01",
+      "label": "Décor 04",
       "theme": "blue-room",
       "image": "assets/media/studio/pic-13.jpg",
       "gallery": [
