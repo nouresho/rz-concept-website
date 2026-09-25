@@ -30,27 +30,6 @@ window.RZ_CONTENT = {
           "alt": "Le Salon — vue 4"
         }
       ]
-    },    {
-      "slug": "blue-room",
-      "name": "Blue Room",
-      "description": "Écran, bibliothèque et assise claire dans une ambiance lumineuse bleue.",
-      "label": "Décor 01",
-      "theme": "blue-room",
-      "image": "assets/media/studio/pic-13.jpg",
-      "gallery": [
-        {
-          "src": "assets/media/studio/pic-13.jpg",
-          "alt": "Blue Room — vue d’ensemble"
-        },
-        {
-          "src": "assets/media/studio/pic-11.jpg",
-          "alt": "Blue Room — vue 2"
-        },
-        {
-          "src": "assets/media/studio/pic-12.jpg",
-          "alt": "Blue Room — vue 3"
-        }
-      ]
     },
     {
       "slug": "creative-corner",
@@ -89,6 +68,27 @@ window.RZ_CONTENT = {
         {
           "src": "assets/media/studio/pic-4.jpg",
           "alt": "Yellow Lounge — vue 2"
+        }
+      ]
+    }, {
+      "slug": "blue-room",
+      "name": "Blue Room",
+      "description": "Écran, bibliothèque et assise claire dans une ambiance lumineuse bleue.",
+      "label": "Décor 01",
+      "theme": "blue-room",
+      "image": "assets/media/studio/pic-13.jpg",
+      "gallery": [
+        {
+          "src": "assets/media/studio/pic-13.jpg",
+          "alt": "Blue Room — vue d’ensemble"
+        },
+        {
+          "src": "assets/media/studio/pic-11.jpg",
+          "alt": "Blue Room — vue 2"
+        },
+        {
+          "src": "assets/media/studio/pic-12.jpg",
+          "alt": "Blue Room — vue 3"
         }
       ]
     }
