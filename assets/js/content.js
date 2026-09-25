@@ -71,24 +71,24 @@ window.RZ_CONTENT = {
         }
       ]
     }, {
-      "slug": "blue-room",
-      "name": "Blue Room",
+      "slug": "Solo Session",
+      "name": "Solo Session",
       "description": "Écran, bibliothèque et assise claire dans une ambiance lumineuse bleue.",
       "label": "Décor 04",
-      "theme": "blue-room",
+      "theme": "Solo Session",
       "image": "assets/media/studio/pic-11.jpg",
       "gallery": [
         {
           "src": "assets/media/studio/pic-11.jpg",
-          "alt": "Blue Room — vue d’ensemble"
+          "alt": "Solo Session — vue d’ensemble"
         },
         {
           "src": "assets/media/studio/pic-13.jpg",
-          "alt": "Blue Room — vue 2"
+          "alt": "Solo Session — vue 2"
         },
         {
           "src": "assets/media/studio/pic-12.jpg",
-          "alt": "Blue Room — vue 3"
+          "alt": "Solo Session — vue 3"
         }
       ]
     }
