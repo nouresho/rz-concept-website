@@ -32,42 +32,42 @@ window.RZ_CONTENT = {
       ]
     },
     {
-      "slug": "creative-corner",
-      "name": "Creative Corner",
+      "slug": "Talk Space",
+      "name": "Talk Space",
       "description": "Deux fauteuils clairs, panneaux beiges et touches végétales dans un décor épuré.",
       "label": "Décor 02",
-      "theme": "creative-corner",
+      "theme": "Talk Space",
       "image": "assets/media/studio/pic-6.jpg",
       "gallery": [
         {
           "src": "assets/media/studio/pic-6.jpg",
-          "alt": "Creative Corner — vue d’ensemble"
+          "alt": "Talk Space — vue d’ensemble"
         },
         {
           "src": "assets/media/studio/pic-5.jpg",
-          "alt": "Creative Corner — vue 2"
+          "alt": "Talk Space — vue 2"
         },
         {
           "src": "assets/media/studio/pic-7.jpg",
-          "alt": "Creative Corner — vue 3"
+          "alt": "Talk Space — vue 3"
         }
       ]
     },
     {
-      "slug": "yellow-lounge",
-      "name": "Yellow Lounge",
+      "slug": "Studio Corner",
+      "name": "Studio Corner",
       "description": "Deux fauteuils jaunes, une table basse et un mur de cadres souligné par une lumière rouge.",
       "label": "Décor 03",
-      "theme": "yellow-lounge",
+      "theme": "Studio Corner",
       "image": "assets/media/studio/pic-1.jpg",
       "gallery": [
         {
           "src": "assets/media/studio/pic-1.jpg",
-          "alt": "Yellow Lounge — vue d’ensemble"
+          "alt": "Studio Corner — vue d’ensemble"
         },
         {
           "src": "assets/media/studio/pic-4.jpg",
-          "alt": "Yellow Lounge — vue 2"
+          "alt": "Studio Corner — vue 2"
         }
       ]
     }, {
@@ -76,14 +76,14 @@ window.RZ_CONTENT = {
       "description": "Écran, bibliothèque et assise claire dans une ambiance lumineuse bleue.",
       "label": "Décor 04",
       "theme": "blue-room",
-      "image": "assets/media/studio/pic-13.jpg",
+      "image": "assets/media/studio/pic-11.jpg",
       "gallery": [
         {
-          "src": "assets/media/studio/pic-13.jpg",
+          "src": "assets/media/studio/pic-11.jpg",
           "alt": "Blue Room — vue d’ensemble"
         },
         {
-          "src": "assets/media/studio/pic-11.jpg",
+          "src": "assets/media/studio/pic-13.jpg",
           "alt": "Blue Room — vue 2"
         },
         {
